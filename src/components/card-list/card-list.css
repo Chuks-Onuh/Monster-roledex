@@ -4,5 +4,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+    padding: 50px;
+  }
+  @media (max-width:675px){
+    .card-list{
+      display: flex;
+      flex-direction: column;
+    }
   }
   
